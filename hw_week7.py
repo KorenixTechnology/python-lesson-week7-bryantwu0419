@@ -18,10 +18,9 @@ def hw_week7(secret_number):
     if guess == number:
         guessesTaken = str(guessesTaken)
         print('Good job! You guessed my number in ' + guessesTaken + ' guesses!')
-    if guess != number:
-       number = str(number)
-       print('Nope. The number I was thinking of was ' + number)
-
+    if guess != number
+    number = str(number)
+    print('Nope. The number I was thinking of was ' + number)
 
 if __name__ == '__main__':
     hw_week7(random.randint(1, 100))
