@@ -1,10 +1,9 @@
 import random
-
 def hw_week7(secret_number):
     import random
     guessesTaken = 0
-    print('Take a guess.') 
     while guessesTaken < 6:
+        print('Take a guess.') 
         guess = input()
         guess = int(guess)
         guessesTaken = guessesTaken + 1
@@ -19,4 +18,4 @@ def hw_week7(secret_number):
         print('Good job! You guessed my number in ' + guessesTaken + ' guesses!')
 
 if __name__ == '__main__':
-    hw_week7(random.randint(1, 100))
+    hw_week7(15)
